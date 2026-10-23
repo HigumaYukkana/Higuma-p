@@ -46,9 +46,10 @@ body{
 
 /* Estilo para la infografía larga de Información */
 img[src="src/Info.png"] {
-    max-width: 320px;   /* Limita el ancho para que no ocupe toda la pantalla */
-    width: 90%;         /* Se adapta con margen en teléfonos más chicos */
-    height: auto;       /* Mantiene la proporción perfecta sin deformarse */
-    display: block;     /* Permite centrar la imagen */
-    margin: 0 auto;     /* Centra la imagen horizontalmente */
+    max-width: 320px !important;   /* Limita el ancho en celulares */
+    width: 90% !important;         /* Ocupa el 90% con margen visual */
+    height: auto !important;       /* Fuerza a mantener la proporción sin estirarse */
+    display: block !important;     /* Permite centrar */
+    margin: 0 auto !important;     /* Centra la imagen en pantalla */
 }
+
